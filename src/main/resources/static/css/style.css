@@ -1,0 +1,17 @@
+h1{
+    color:red;
+}
+table, td, th {
+    border: 1px solid black;
+}
+thead {
+    background-color: darkgray;
+}
+.añadir{
+    margin-bottom: 20px;
+}
+.editar{
+    position: absolute;
+    margin-left: 200px;
+    width: 40px;
+}

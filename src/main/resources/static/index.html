@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>CRUD</h1>
+    <div class="añadir">
+        <input id="txtFruta" type="text" placeholder="Introduce el nombre de la fruta">
+        <button onclick="add()">Crear</button>
+    </div>
+    <div class="editar">
+        <input id="old_txtFruta" type="text" placeholder="Nombre antigua fruta">
+        <input id="new_txtFruta" type="text" placeholder="Nombre nueva fruta">
+        <button onclick="editar()">Editar</button>
+    </div>
+    <table id="frutas">
+        <thead>
+            <th>ID</th>
+            <th>Fruta</th>
+            <th>Acciones</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/tabla.js" ></script>
+</html>
